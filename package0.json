@@ -1,0 +1,23 @@
+{
+  "name": "testphantom",
+  "version": "1.0.0",
+  "authors": "Van Huynh",
+  "scripts": {
+    "testdev": "wdio ./UI/config/local.conf.js",
+    "test": "wdio ./UI/config/phantom.conf.js"
+  },
+  "devDependencies": {
+    "wdio-chromedriver-service": "0.1.1",
+    "wdio-mocha-framework": "0.5.9",
+    "wdio-phantomjs-service": "0.2.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "0.1.0",
+    "webdriverio": "4.6.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "selenium-webdriver": "3.4.0",
+    "should": "^13.2.1"
+  }
+}

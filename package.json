@@ -1,0 +1,17 @@
+{
+  "name": "testphantom",
+  "version": "1.0.0",
+  "authors": "Van Huynh",
+  "scripts": {
+    "testdev": "wdio ./UI/config/local.conf.js",
+    "test": "wdio ./UI/config/phantom.conf.js"
+  },
+  "devDependencies": {
+    
+    "wdio-mocha-framework": "0.5.9",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "4.6.2"
+
+  }
+}
